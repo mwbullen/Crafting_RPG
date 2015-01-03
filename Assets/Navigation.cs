@@ -20,6 +20,10 @@ public class Navigation : MonoBehaviour {
 
 	}
 
+	void Stop () {
+		navAgent.Stop ();
+	}
+
 	public bool HasArrived() {
 		if (navAgent.remainingDistance <= navAgent.stoppingDistance) {
 			return true;
