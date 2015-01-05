@@ -20,14 +20,28 @@ public class Navigation : MonoBehaviour {
 
 	}
 
+	void NavtoPosition (Vector3 position) {
+		navAgent.SetDestination (position);
+	}
+
 	void Stop () {
 		navAgent.Stop ();
 	}
 
 	public bool HasArrived() {
+		if (navAgent == null) {
+			return true;
+				}
+
+		if (!navAgent.hasPath) {
+			return true;
+				}
+
 		if (navAgent.remainingDistance <= navAgent.stoppingDistance) {
 			return true;
 				}
 		return false;
 	}
+
+
 }
