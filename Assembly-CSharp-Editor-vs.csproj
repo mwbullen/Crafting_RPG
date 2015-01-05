@@ -93,6 +93,7 @@
      <None Include="Assets\PlayMaker\Readme.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\Warrior 2 Swords\sources\Toon Shading\Toony Gooch RimOutline Hard.shader" />
+     <None Include="Assets\Monsterupdate\Materials\atsv2 vertexlit.shader" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\Photon3Unity3D.xml" />
      <None Include="Assets\COLLECTION\FREE TERRAIN COLLECTION\README.txt" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\release_history.txt" />
