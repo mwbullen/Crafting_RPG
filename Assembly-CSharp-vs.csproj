@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\MainUIPanel.cs" />
      <Compile Include="Assets\Navigation.cs" />
+     <Compile Include="Assets\OldChest\DemoScene\MouseOrbit.cs" />
      <Compile Include="Assets\Photon Unity Networking\PlayMaker\Actions\PhotonGUILayoutToolBarWithPlayers.cs" />
      <Compile Include="Assets\Photon Unity Networking\PlayMaker\Actions\PhotonGUILayoutToolBarWithRooms.cs" />
      <Compile Include="Assets\Photon Unity Networking\PlayMaker\Actions\PhotonNetworkConnectManually.cs" />
