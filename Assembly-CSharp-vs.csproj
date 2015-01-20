@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ItemDragDrop.cs" />
      <Compile Include="Assets\MainUIPanel.cs" />
      <Compile Include="Assets\Navigation.cs" />
      <Compile Include="Assets\Photon Unity Networking\PlayMaker\Actions\PhotonGUILayoutToolBarWithPlayers.cs" />
