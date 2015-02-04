@@ -43,5 +43,11 @@ public class Navigation : MonoBehaviour {
 		return false;
 	}
 
+	public Vector3 GetRandomLocation(GameObject g) {
+		Bounds b = g.transform.collider.bounds;
+
+		return new Vector3(Random.Range(b.min.x, b.max.x), 0, Random.Range(b.min.z, b.max.z));
+
+	}
 
 }
